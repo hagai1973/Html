@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms</title>
+  </head>
+  <body>
+    <form action="" method="">
+      <!-- test input -->
+      <label for="firstName">First Name: </label>
+      <input
+        type="text"
+        name="firstName"
+        placeholder="Your Name"
+        id="firstName"
+      />
+      <br />
+      <br />
+      <!-- password input -->
+      <label for="password">Password: </label>
+      <input type="password" name="password" placeholder="Your Password" />
+      <br />
+      <br />
+      <!-- email input -->
+      <label for="email">Email: </label>
+      <input type="email" name="email" value="" placeholder="Your Email" />
+      <br />
+      <br />
+      <!-- textarea -->
+      <div>Description</div>
+      <textarea name="" id="" cols="30" rows="2"></textarea>
+      <br />
+      <br />
+      <!-- radio buttons -->
+      <div>Select your favorite coding language:</div>
+      <input
+        type="radio"
+        name="coding"
+        id=""
+        value="javascript"
+        checked
+      />Javascript <input type="radio" name="coding" id="" value="java" />Java
+      <input type="radio" name="coding" id="" value="python" />Python
+
+      <br />
+      <br />
+      <!-- Checkbox buttons -->
+      <div>Select your favorite IDE:</div>
+      <input type="checkbox" name="IDE" id="" value="vsc" checked />Visual
+      Studio Code
+      <input type="checkbox" name="IDE" id="" value="eclipse" />Eclipse
+      <input type="checkbox" name="IDE" id="" value="IntelliJ" />Intellij
+
+      <br />
+      <br />
+      <!-- submit input -->
+      <input type="submit" value="Submit Here" />
+    </form>
+  </body>
+</html>
